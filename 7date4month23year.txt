@@ -1,0 +1,36 @@
+num1<-10L;
+if(num1 %% 2L==0)
+  {
+  print('EVEN NUMBER');
+  }else
+  {
+  print('NOT EVEN NUMBER');
+  }
+
+___________________________
+
+
+num2<-100L;
+
+if(num2 %% 2L==0)
+{
+  print('EVEN NUMBER');
+}else if(num2 %% 2L==0)
+{
+  print('ODD NUMBER');
+}else{
+  print('NUMBER');
+}
+
+__________________________
+
+
+i<-10
+while(i<20){
+  i=i+1;
+  if(i %% 2!=0){
+    next;
+  }
+  print(i)
+}
+
