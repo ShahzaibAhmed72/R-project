@@ -1,0 +1,8 @@
+
+num<- -78
+
+check<-function(name){
+  print(abs(num))
+}
+
+check()
