@@ -1,0 +1,6 @@
+row_name<-c("r1","r2","r3","r4")
+col_name<-c("c1","c2","c3")
+
+z<-matrix(1:12,nrow=4, ncol=3, byrow=TRUE, dimnames = list(row_name,col_name))
+z
+z[,3]
